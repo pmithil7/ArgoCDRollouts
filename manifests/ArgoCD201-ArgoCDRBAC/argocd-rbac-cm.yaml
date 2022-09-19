@@ -8,4 +8,5 @@ metadata:
 data:
   policy.default: role:readonly
   policy.csv: |
+    p, role:workshop, projects, *, *, allow
     g, workshop, role:workshop
